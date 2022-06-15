@@ -26,4 +26,6 @@ Add state:
 - change initial backgground color
 - when hove over div 1 change background to red and back to initial one
 - hover over each div changes bcC 
-- 
+
+![pic1](./assets/pic1.png)
+![pic2](./assets/pic2.png)
