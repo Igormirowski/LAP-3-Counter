@@ -1,0 +1,16 @@
+.d-flex div {
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex div:nth-child(1) {
+    background-color: goldenrod;
+}
+
+.d-flex div:nth-child(2) {
+    background-color: silver;
+}
