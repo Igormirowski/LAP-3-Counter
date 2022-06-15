@@ -44,7 +44,7 @@ Convention
 
 # Testing
 - play with testing library [rtl](https://testing-library.com/docs/react-testing-library/intro/)
-
+- With rtl we test our code with user interacti with our app
 - CRA – Create React App
 - SPA – Single Page Application
 
@@ -55,3 +55,11 @@ Convention
 
 ### Test our counter: 
 - ned file in src `Counter.spec.js`
+- Useful getBy testing and About Queries [link](https://testing-library.com/docs/queries/byrole)
+[About quiries](https://testing-library.com/docs/queries/about)
+
+
+![test](./assets/test.png)
+
+
+- to change port (in package.json --> script --> start add ath the beginning "PORT=4000 react...."

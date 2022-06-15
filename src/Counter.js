@@ -10,7 +10,7 @@ const Counter = () => {
     
     return (
         <div>
-            <h3>Count: {counter}</h3>
+            <div role="figure">Count: {counter}</div>
 
             <button
             className='btn btn-primary' 
