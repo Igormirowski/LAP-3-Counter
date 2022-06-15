@@ -9,8 +9,8 @@ function App() {
 
 
 
-  const changeBg = () => {
-    setBgC('red')
+  const changeBg = (color) => {
+    setBgC(color)
     
   }
 
@@ -22,10 +22,13 @@ function App() {
     <div className="container vh-100" style={{backgroundColor: bgC}}>
       <div className="d-flex justify-content-between">
         <div 
-        onMouseEnter={changeBg}
+        onMouseEnter={() => changeBg('purple')}
         onMouseLeave={resetBg}
         >first div</div>
-        <div>second div</div>
+        <div
+        onMouseEnter={() => changeBg('green')}
+        onMouseLeave={resetBg}
+        >second div</div>
       </div>
     </div>
   );
