@@ -36,5 +36,6 @@ Convention
 
 
 # Counter
-
-
+- create Counter.js and connect to App.js
+- create Event (when clicked we will have value) `onBtnClick` we can use alco `handleBtnClick` or `increaseCount`
+- 
