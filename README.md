@@ -16,7 +16,7 @@ Using hook and state, building counter (increment and decrement buttons)
 
 Add event (Mouse Events)
 - ` <div onMouseEnter={()=> console.log('do something')}>first div</div>` - when we hover over div one we can see 'do something' in console
-- 
+- trasnfer it into function 
 
 
 
