@@ -18,6 +18,8 @@ function App() {
     setBgC(initialBgC)
   }
 
+
+  
   return (
     <div className="container vh-100" style={{backgroundColor: bgC}}>
       <div className="d-flex justify-content-between">

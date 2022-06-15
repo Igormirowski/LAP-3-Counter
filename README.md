@@ -1,6 +1,6 @@
 # LAP 3 Day 1 - Afternoon class
 
-Using hook and state, building counter (increment and decrement buttons)
+Using hook and state
 
 - tidy up index.js (remove some useless extra folders)
 - add fragment 
@@ -29,5 +29,9 @@ Add state:
 
 ![pic1](./assets/pic1.png)
 ![pic2](./assets/pic2.png)
+
+
+Convention
+- on Element Event (onInpiutclick)
 
 
