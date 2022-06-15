@@ -5,7 +5,7 @@ const Counter = () => {
     const [counter, setCounter] = useState(0)
 
     const onBtnClick = () => {
-        setCounter(counter + 1)
+        setCounter(counter + 1)     // OR setCounter(prevCounter => prevCounter + 1)
     }
     
     return (

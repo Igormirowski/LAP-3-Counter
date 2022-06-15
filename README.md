@@ -1,6 +1,5 @@
-# LAP 3 Day 1 - Afternoon class
+# LAP 3 Day 1 - Afternoon class - USING HOOK,STATE, BUILDING COUNTER
 
-Using hook and state, building Counter(increment and decrement)
 
 - tidy up index.js (remove some useless extra folders)
 - add fragment 
@@ -37,7 +36,7 @@ Convention
 
 # Counter
 - create Counter.js and connect to App.js
-- create Event (when clicked we will have value) `onBtnClick` we can use alco `handleBtnClick` or `increaseCount`
+- create Event (when clicked we will have value) `onBtnClick` we can use alco `handleBtnClick` (handle is limited to single use) or `increaseCount`
 - make another red button that removes one from 100
 
 ![pic2](./assets/count.png)
