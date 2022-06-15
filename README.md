@@ -1,4 +1,4 @@
-# LAP 3 Day 1 - Afternoon class - USING HOOK,STATE, BUILDING COUNTER
+# LAP 3 Day 1 - Afternoon class - USING HOOK,STATE, BUILDING COUNTER + simple testing
 
 
 - tidy up index.js (remove some useless extra folders)
@@ -40,3 +40,13 @@ Convention
 - make another red button that removes one from 100
 
 ![pic2](./assets/count.png)
+
+
+# Testing
+- play with testing library [rtl](https://testing-library.com/docs/react-testing-library/intro/)
+
+- CRA – Create React App
+- SPA – Single Page Application
+
+- 
+- 
