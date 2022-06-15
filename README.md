@@ -24,5 +24,5 @@ Change background:
 Add state:
 - add state 
 - change initial backgground color
-- when hove over div 1 change background to red
+- when hove over div 1 change background to red and back to initial one
 

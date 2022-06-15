@@ -14,10 +14,17 @@ function App() {
     
   }
 
+  const resetBg = () => {
+    setBgC(initialBgC)
+  }
+
   return (
     <div className="container vh-100" style={{backgroundColor: bgC}}>
       <div className="d-flex justify-content-between">
-        <div onMouseEnter={changeBg}>first div</div>
+        <div 
+        onMouseEnter={changeBg}
+        onMouseLeave={resetBg}
+        >first div</div>
         <div>second div</div>
       </div>
     </div>
