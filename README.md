@@ -51,3 +51,7 @@ Convention
 - Non- CRA Setup:
 -`npm install --save-dev jest babel-jest @testing-library/react @testing-library/jest-dom @testing-library/user-event`
  - follow steps from gitHub wiki futureproof testing with React [link](https://github.com/getfutureproof/fp_guides_wiki/wiki/Testing-React:-Jest-and-React-Testing-Library)
+
+
+### Test our counter: 
+- ned file in src `Counter.spec.js`
