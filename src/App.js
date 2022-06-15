@@ -4,16 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+  const initialBgC = '#f4f4f4'
+  const [bgC, setBgC] = useState(initialBgC)
 
-  const someState = useState('hello')
-  console.log(someState)
+
 
   const changeBg = () => {
-    console.log('do something')
+    setBgC('red')
+    
   }
 
   return (
-    <div className="container vh-100" style={{backgroundColor: "saddlebrown"}}>
+    <div className="container vh-100" style={{backgroundColor: bgC}}>
       <div className="d-flex justify-content-between">
         <div onMouseEnter={changeBg}>first div</div>
         <div>second div</div>
