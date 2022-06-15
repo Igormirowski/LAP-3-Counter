@@ -5,8 +5,9 @@ Using hook and state, building counter (increment and decrement buttons)
 - tidy up index.js (remove some useless extra folders)
 - add fragment 
 
-
-
+- `npm start` 
+- build to divs within fragment
+- 
 
 
 
