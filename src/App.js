@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 import Counter from './Counter';
+import Counter2 from './Counter2';
 
 function App() {
   const initialBgC = '#f4f4f4'
@@ -34,6 +35,7 @@ function App() {
         >second div</div>
       </div>
   <Counter />
+  <Counter2 />
     </div>
   );
 }
