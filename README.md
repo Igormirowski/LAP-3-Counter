@@ -1,9 +1,9 @@
-# LAP 3 Day 1 PM
+# LAP 3 Day 1 - Afternoon class
 
 Using hook and state, building counter (increment and decrement buttons)
 
-
-
+- tidy up index.js (remove some useless extra folders)
+- add fragment 
 
 
 
