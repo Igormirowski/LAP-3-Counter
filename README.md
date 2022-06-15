@@ -1,6 +1,6 @@
 # LAP 3 Day 1 - Afternoon class
 
-Using hook and state
+Using hook and state, building Counter(increment and decrement)
 
 - tidy up index.js (remove some useless extra folders)
 - add fragment 
@@ -34,4 +34,4 @@ Add state:
 Convention
 - on Element Event (onInpiutclick)
 
-
+# Counter
