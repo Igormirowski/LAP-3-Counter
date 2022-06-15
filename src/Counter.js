@@ -1,16 +1,17 @@
 import React from 'react';
 
-const Counter = => {
-return {
-    <div>
-    <h3> Count: count(0)</h3>
-    </div>
+
+const Counter = () => {
+    retun {
+        <div>
+            <h3>Count: count(0)</h3>
+
+            <button>
+                add one
+            </button>
+        </div>
+    }
 }
-}
-
-
-
-
 
 
 
