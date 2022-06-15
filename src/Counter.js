@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 const Counter = () => {
-    retun {
+
+    const [counter, setCounter] = useState(0)
+
+    return (
         <div>
-            <h3>Count: count(0)</h3>
+            <h3>Count: {counter}</h3>
 
             <button>
                 add one
             </button>
         </div>
-    }
+    )
 }
 
 

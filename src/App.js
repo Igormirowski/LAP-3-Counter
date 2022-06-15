@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
+import Counter from './Counter';
 
 function App() {
   const initialBgC = '#f4f4f4'
@@ -32,6 +33,7 @@ function App() {
         onMouseLeave={resetBg}
         >second div</div>
       </div>
+  <Counter />
     </div>
   );
 }
